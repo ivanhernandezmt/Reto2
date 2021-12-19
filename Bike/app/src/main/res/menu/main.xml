@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu2Favoritos"
+        android:title=""
+        android:icon="@drawable/ic_menu2_corazon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu2Compartir"
+        android:title=""
+        android:icon="@drawable/ic_menu2_compartir"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu2_mas"
+        android:title=""
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_add"
+                android:orderInCategory="100"
+                android:title="@string/action_add"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+    </item>
+
+
+</menu>
